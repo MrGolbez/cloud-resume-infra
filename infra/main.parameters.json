@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "prod"
+    },
+    "frontendLocation": {
+      "value": "westus2"
+    },
+    "backendLocation": {
+      "value": "westus"
+    },
+    "cosmosLocation": {
+      "value": "westus2"
+    },
+    "staticSiteStorageAccountName": {
+      "value": "martycraneresume26"
+    },
+    "functionStorageAccountName": {
+      "value": "rgcloudresumeproda986"
+    },
+    "functionPlanName": {
+      "value": "ASP-rgcloudresumeprod-a8d4"
+    },
+    "functionAppName": {
+      "value": "martycrane-resume-api"
+    },
+    "cosmosAccountName": {
+      "value": "martycrane-resume-db"
+    },
+    "tableName": {
+      "value": "Counter"
+    },
+    "deploymentContainerName": {
+      "value": "app-package-martycrane-resume-api-1a81096"
+    },
+    "functionRuntimeVersion": {
+      "value": "3.13"
+    }
+  }
+}
