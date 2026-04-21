@@ -135,8 +135,15 @@ Infrastructure repo status:
 - Initial Azure `what-if` preview completed
 - Production deployment intentionally not applied yet
 
+Security challenge status:
+
+- Phase 1 supply-chain baseline completed in `security/supply-chain-baseline.md`
+- Secret scanning and push protection verified as enabled across the project repos
+- Branch protection, signed commits, Dependabot, CodeQL, SBOM, and Grype are documented as next-phase controls
+
 Next improvements:
 
+- Complete signed commits and branch protection
 - Add GitHub Actions validation for Bicep build and Azure `what-if`
 - Add architecture diagram and screenshots
 - Document Cloudflare DNS, SSL/TLS mode, cache rules, and token scope
